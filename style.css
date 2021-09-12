@@ -1,3 +1,6 @@
+body{
+    background-color: burlywood;
+}
 #click_area{
     height: 350px;
     width: 550px;
