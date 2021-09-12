@@ -1,0 +1,135 @@
+#click_area{
+    height: 350px;
+    width: 550px;
+    background-color: rgb(149, 147, 147);
+    color:white;
+    border-radius: 20px;
+    margin: 20px;
+}
+#container{
+    height: 400px;
+    width: 600px;
+    background-color: rgb(70, 67, 67);
+    color:white;
+    border: ridge 1px black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+    border-top: 0px;
+    margin-right: 350px;
+}
+#ans{
+    font-weight: bolder;
+}
+#di1{
+    border: 1px black solid;
+    border-radius: 0px;
+    height: 100px;
+    width: 200px;
+    margin-left: 205px;
+    background-image: linear-gradient(to top right,purple,rgb(88, 113, 221));
+    border-top-left-radius: 20px;
+}
+#di2{
+    border: 2px black solid;
+    border-left: 1px;
+    border-right: 1px;
+    border-radius: 0px;
+    height: 100px;
+    width: 200px;
+    background-image: linear-gradient(to top right,rgb(251, 113, 0),rgb(228, 177, 84));
+}
+#di3
+{
+    border: 1px black solid;
+    border-radius: 0px;
+    height: 100px;
+    width: 200px;
+    background-image: linear-gradient(to top right,rgb(77, 163, 7),rgb(84, 228, 115));
+    border-top-right-radius: 20px;
+}
+.di4{
+    border: black solid 2px;
+    background-color: gray;
+}
+.di5{
+    background-color: rgb(49, 49, 49);
+    height: 70px;   
+    text-align: center;
+    padding-top: 2px;
+    border-bottom: solid white 3px;
+}
+#btn_column{
+    background-color:rgb(70, 67, 67);
+    height: 500px;
+    padding:10px;
+    color: white;
+    width: 300px;
+    margin-left: 600px;
+    margin-top: -500px;
+    border-radius: 20px;
+
+    
+}
+span{
+    display: flex;
+}
+#head{
+    font-size: 35px;
+    color:cyan;
+    font-weight: bolder;
+}
+.p1{
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25;
+    
+}
+.p2{
+    margin-top: 15px;
+    font-size: 18px;
+}
+.p3:hover{
+    cursor:pointer;
+    font-size: 20px;
+    background-color: rgba(245, 245, 245, 0);
+}
+.p3{
+    font-size: 17px;
+    background-color: rgba(245, 245, 245, 0);
+}
+#p4{
+    color: rgb(255, 251, 11);
+    margin: 20px;
+}
+#p5{
+    color: rgb(255, 251, 11);
+    margin: 20px;
+       
+}
+#Scoreboard{
+    border: 2px black solid;
+    background-color: rgb(46, 46, 45);
+    border: ridge 3px white;
+    height:500px;
+    width: 500px;
+    margin-left:-300px ;
+    visibility: hidden;
+    margin-top: -500px;
+    color: white;
+}
+#img{
+    margin-top: 30px;
+    border: ridge blue 3px;
+}
+#restart_btn{
+    height: 90px;
+    width: 200px;
+    color: white;
+    background-color: chartreuse;
+    border: white solid 5px;
+    font-size: 22px;
+}
+#restart_btn:hover{
+    height: 100px;
+    width: 220px;
+}

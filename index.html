@@ -1,0 +1,78 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,900&display=swap" rel="stylesheet">
+
+    <title>CPS Test</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <center>
+        <div class="di5">
+            <h3 id="head">CPS Test</h3>
+        </div>
+        <br>
+        <br>
+        <br>
+        <span>
+            <div id="di1">
+                <h2 class="p1" id="click">0</h2>
+                <h1 class="p1 p2">Score</h1>
+            </div>
+            <div id="di2">
+                <h2 class="p1" id="ans">0</h2>
+                <h1 class="p1 p2">CPS</h1>
+            </div>
+            <div id="di3">
+                <h2 class="p1" id="time">0</h2>
+                <h1 class="p1 p3">Timer</h1>
+            </div>
+        </span>
+        <div id="container">
+            <button id="click_area" onclick="CPS()">Click here to start playing</button>
+        </div>
+
+        <div id="btn_column">
+            <div><button onclick="Asecond()" class="p3">5 second click test</button></div>
+            <hr>
+            <div><button onclick="Bsecond()" class="p3">10 second click test</button></div>
+            <hr>
+            <div><button onclick="Csecond()" class="p3">15 second click test</button></div>
+            <hr>
+            <div><button onclick="Dsecond()" class="p3">30 second click test</button></div>
+            <hr>
+            <div><button onclick="Esecond()" class="p3">60 second click test</button></div>
+            <hr>
+            <div><button onclick="Fsecond()" class="p3">120 second click test</button></div>
+            <hr>
+            <div><button onclick="Gsecond()" class="p3">300 second click test</button></div>
+            <hr>
+        </div>
+        <div id="Scoreboard">
+            <img id="img" src="Turle.png" height="200px" width="200px">
+            <h2 id="p3">You are a slow Turtle.</h2>
+            <hr>
+            <br>
+            &nbsp;<span><h3 id="p4">Your Score is :-</h3>&nbsp;&nbsp;<h3 id="p5">Your CPS is :-</h3></span>
+            <button onclick="restart()" id="restart_btn">Restart</button>
+        </div>
+
+    </center>
+</body>
+
+</html>
